@@ -32,7 +32,7 @@ const Products = () => {
 
     useEffect(() => {
         dispatch(saveData(products));
-    }, []);
+    }, [dispatch]);
 
     return <div className="container card">
         <h1 className="card-header text-center">Productos</h1>
